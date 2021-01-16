@@ -3,7 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>goit-js-hw-13-image-finder</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="query"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+      </form>
+      <ul class="gallery js-gallery">
+        <!-- Список <li> с карточками изображений -->
+      </ul>
+      <button class="is-hidden js-button" type="button">Load More</button>
+    </div>
+  </body>
 </html>

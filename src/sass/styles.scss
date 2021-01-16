@@ -1,0 +1,47 @@
+li {
+  list-style: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.load-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-form {
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  margin: 10px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stats-item {
+  display: flex;
+  align-items: center;
+}
+
+.material-icons {
+  margin-right: 10px;
+}
