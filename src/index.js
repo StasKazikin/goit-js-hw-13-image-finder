@@ -27,4 +27,12 @@ function loadImages() {
   apiService.fetchImages().then(updateMarkup);
 }
 
-refs.loadMoreBtn.addEventListener('click', loadImages);
+refs.loadMoreBtn.addEventListener('click', () => {
+  loadImages();
+  setTimeout(() => {
+    window.scrollBy({
+      top: window.innerHeight,
+      behavior: 'smooth',
+    });
+  }, 1500);
+});
