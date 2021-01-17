@@ -30,9 +30,9 @@ function loadImages() {
 refs.loadMoreBtn.addEventListener('click', () => {
   loadImages();
   setTimeout(() => {
-    window.scrollBy({
-      top: window.innerHeight,
+    window.scrollTo({
+      top: document.documentElement.offsetHeight,
       behavior: 'smooth',
     });
-  }, 1500);
+  }, 2000);
 });
